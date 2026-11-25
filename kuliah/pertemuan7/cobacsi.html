@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coba CSI</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+      h1 {
+        color: lightblue;
+        font-size: 50px;
+      }
+
+      h1 {
+        color: red;
+      }
+
+      h1.biru {
+        color: blue;
+      }
+
+      h1.hijau {
+        color: green;
+      }
+
+      ul {
+        color: green;
+      }
+
+      .dua {
+        color: blue;
+      }
+
+      ul li a {
+        color: red;
+        text-decoration: none;
+        color: orange !important;
+      }
+
+      ul li a.mylink:hover {
+        text-decoration: underline;
+      }
+
+      .miring {
+        font-style: italic;
+      }
+
+      .gambar1 {
+        width: 150px;
+        filter: grayscale() blur(5px);
+        transition: 1s;
+      }
+      .gambar1:hover {
+        filter: grayscale(0) blur(0);
+      }
+
+      .kotak1 {
+        width: 150px;
+        height: 150px;
+        background-color: lightblue;
+        margin: auto;
+        transition: transform 1s;
+        transition-delay: 0.5s;
+      }
+      .kotak1:hover {
+        transform: scaleY(0);
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="hijau biru" id="pink">Hello ITW</h1>
+    <p class="biru miring">paragraf 1</p>
+    <ul>
+      <li><a href="" class="mylink">Link 1</a></li>
+      <li><a href="" class="mylink">Link 2</a></li>
+      <li><a href="" class="mylink">Link 3</a></li>
+    </ul>
+
+    <img class="gambar1" src="10-1.jpeg" alt="" />
+
+    <div class="kotak1"></div>
+  </body>
+</html>
